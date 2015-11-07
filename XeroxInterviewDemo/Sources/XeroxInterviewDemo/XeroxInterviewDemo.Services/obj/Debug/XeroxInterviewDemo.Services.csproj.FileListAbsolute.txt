@@ -1,0 +1,8 @@
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Services\bin\Debug\XeroxInterviewDemo.Services.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Services\bin\Debug\XeroxInterviewDemo.Services.pdb
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Services\obj\Debug\XeroxInterviewDemo.Services.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Services\obj\Debug\XeroxInterviewDemo.Services.pdb
+C:\dev\VSProjects\MySources\XeroxInterviewDemo\Sources\XeroxInterviewDemo\XeroxInterviewDemo.Services\bin\Debug\XeroxInterviewDemo.Services.dll
+C:\dev\VSProjects\MySources\XeroxInterviewDemo\Sources\XeroxInterviewDemo\XeroxInterviewDemo.Services\bin\Debug\XeroxInterviewDemo.Services.pdb
+C:\dev\VSProjects\MySources\XeroxInterviewDemo\Sources\XeroxInterviewDemo\XeroxInterviewDemo.Services\obj\Debug\XeroxInterviewDemo.Services.dll
+C:\dev\VSProjects\MySources\XeroxInterviewDemo\Sources\XeroxInterviewDemo\XeroxInterviewDemo.Services\obj\Debug\XeroxInterviewDemo.Services.pdb

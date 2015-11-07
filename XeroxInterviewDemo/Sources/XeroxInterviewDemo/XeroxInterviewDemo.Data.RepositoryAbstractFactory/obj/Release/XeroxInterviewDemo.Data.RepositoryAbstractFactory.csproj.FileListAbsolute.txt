@@ -1,0 +1,15 @@
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryAbstractFactory\bin\Release\XeroxInterviewDemo.Data.RepositoryAbstractFactory.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryAbstractFactory\bin\Release\XeroxInterviewDemo.Data.RepositoryAbstractFactory.pdb
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryAbstractFactory\bin\Release\XeroxInterviewDemo.Data.Repository.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryAbstractFactory\bin\Release\XeroxInterviewDemo.Data.Repository.EntityFrameworkRepository.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryAbstractFactory\bin\Release\XeroxInterviewDemo.Data.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryAbstractFactory\bin\Release\EntityFramework.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryAbstractFactory\bin\Release\AutoMapper.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryAbstractFactory\bin\Release\XeroxInterviewDemo.Data.Repository.EntityFrameworkRepository.pdb
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryAbstractFactory\bin\Release\XeroxInterviewDemo.Data.Repository.pdb
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryAbstractFactory\bin\Release\XeroxInterviewDemo.Data.pdb
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryAbstractFactory\bin\Release\EntityFramework.xml
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryAbstractFactory\bin\Release\AutoMapper.xml
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryAbstractFactory\obj\Release\XeroxInterviewDemo.Data.RepositoryAbstractFactory.csprojResolveAssemblyReference.cache
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryAbstractFactory\obj\Release\XeroxInterviewDemo.Data.RepositoryAbstractFactory.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryAbstractFactory\obj\Release\XeroxInterviewDemo.Data.RepositoryAbstractFactory.pdb

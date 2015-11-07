@@ -1,0 +1,5 @@
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Business\bin\Release\XeroxInterviewDemo.Business.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Business\bin\Release\XeroxInterviewDemo.Business.pdb
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Business\obj\Release\XeroxInterviewDemo.Business.csprojResolveAssemblyReference.cache
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Business\obj\Release\XeroxInterviewDemo.Business.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Business\obj\Release\XeroxInterviewDemo.Business.pdb

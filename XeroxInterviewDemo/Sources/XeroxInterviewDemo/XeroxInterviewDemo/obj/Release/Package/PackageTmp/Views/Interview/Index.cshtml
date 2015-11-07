@@ -1,0 +1,91 @@
+﻿@model IEnumerable<XeroxInterviewDemo.ViewModels.InterviewViewModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+
+<div id="clientsDb">
+   @(Html.Kendo().Grid(Model)
+    .Name("Grid")
+    .Columns(columns =>
+    {
+        columns.Bound(p => p.Id).Title("Id");
+        columns.Bound(p => p.Date).Title("Date and time").Format("{0:dd/MM/yyyy}");
+        columns.Bound(p => p.Title).Title("Title");
+        columns.Bound(p => p.Position).Title("Position").Width (100);
+
+    })
+    .Pageable()
+    .Sortable()
+    .Scrollable(scr => scr.Height(200))
+    .Filterable()
+    .Selectable ()
+    .DataSource(dataSource => dataSource
+        .Ajax()
+        .PageSize(30)
+        .ServerOperation(false)
+     )
+)
+</div>
+
+
+
+
+@{ /*
+  <p>
+      @Html.ActionLink("Create New", "Create")
+  </p>
+  <table class="table">
+      <tr>
+          <th>
+              @Html.DisplayNameFor(model => model.Title)
+          </th>
+          <th>
+              @Html.DisplayNameFor(model => model.Date)
+          </th>
+          <th>
+              @Html.DisplayNameFor(model => model.Position)
+          </th>
+          <th>
+              @Html.DisplayNameFor(model => model.RequiredSkills)
+          </th>
+          <th>
+              @Html.DisplayNameFor(model => model.Comments)
+          </th>
+          <th></th>
+      </tr>
+
+  @foreach (var item in Model) {
+      <tr>
+          <td>
+              @Html.DisplayFor(modelItem => item.Title)
+          </td>
+          <td>
+              @Html.DisplayFor(modelItem => item.Date)
+          </td>
+          <td>
+              @Html.DisplayFor(modelItem => item.Position)
+          </td>
+          <td>
+              @Html.DisplayFor(modelItem => item.RequiredSkills)
+          </td>
+          <td>
+              @Html.DisplayFor(modelItem => item.Comments)
+          </td>
+          <td>
+              @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+              @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+              @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+          </td>
+      </tr>
+  }
+
+  </table>
+
+          */
+}
+

@@ -1,0 +1,5 @@
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.ViewModels\bin\Release\XeroxInterviewDemo.ViewModels.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.ViewModels\bin\Release\XeroxInterviewDemo.ViewModels.pdb
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.ViewModels\obj\Release\XeroxInterviewDemo.ViewModels.csprojResolveAssemblyReference.cache
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.ViewModels\obj\Release\XeroxInterviewDemo.ViewModels.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.ViewModels\obj\Release\XeroxInterviewDemo.ViewModels.pdb

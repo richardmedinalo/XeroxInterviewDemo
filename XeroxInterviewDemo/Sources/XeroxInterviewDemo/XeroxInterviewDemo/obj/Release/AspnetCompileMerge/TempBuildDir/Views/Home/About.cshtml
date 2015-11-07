@@ -1,0 +1,62 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>@ViewBag.Message</h2>
+</hgroup>
+
+<article>
+    <p>
+        This is just  a Demo project. It's not a big deal but I hope it help me to show how
+        a project can be deployed using Azure.
+    </p>
+
+    <p>
+        I show you some design patterns to illustrate how can be implemented
+        using dot NET platform.
+    </p>
+
+    <p>
+        Some features I used on this projects were:
+    </p>
+
+    <p>
+        <ul>
+            <li>Asp net MVC and Telerik for the UI</li>
+            <li>Fluent API for validations</li>
+            <li>
+                Entity Framework
+                <ul>
+                    <li>It was implemented using Repository design Pattern. It allow us to create diferent repositories according the different storing </li>
+                </ul>
+            </li>
+            <li>C#</li>
+        </ul>
+    </p>
+</article>
+
+<aside>
+    <h3>Telerik UI for ASP.NET MVC TreeView</h3>
+    <p>
+        Use this area to provide additional information.
+    </p>
+
+    @(Html.Kendo().TreeView()
+        .Name("LinksTreeView")
+        .Items(items =>
+        {
+            items.Add()
+                .Text("Home")
+                .Action("Index", "Home");
+            items.Add()
+                .Text("About")
+                .Action("About", "Home");
+            items.Add()
+                .Text("Contact")
+                .Action("Contact", "Home");
+        })
+    )
+
+</aside>

@@ -1,0 +1,7 @@
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Business.Validations\bin\Release\XeroxInterviewDemo.Business.Validations.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Business.Validations\bin\Release\XeroxInterviewDemo.Business.Validations.pdb
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Business.Validations\bin\Release\XeroxInterviewDemo.Business.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Business.Validations\bin\Release\XeroxInterviewDemo.Business.pdb
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Business.Validations\obj\Release\XeroxInterviewDemo.Business.Validations.csprojResolveAssemblyReference.cache
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Business.Validations\obj\Release\XeroxInterviewDemo.Business.Validations.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Business.Validations\obj\Release\XeroxInterviewDemo.Business.Validations.pdb

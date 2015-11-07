@@ -1,0 +1,7 @@
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.Repository\bin\Release\XeroxInterviewDemo.Data.Repository.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.Repository\bin\Release\XeroxInterviewDemo.Data.Repository.pdb
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.Repository\bin\Release\XeroxInterviewDemo.Data.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.Repository\bin\Release\XeroxInterviewDemo.Data.pdb
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.Repository\obj\Release\XeroxInterviewDemo.Data.Repository.csprojResolveAssemblyReference.cache
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.Repository\obj\Release\XeroxInterviewDemo.Data.Repository.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.Repository\obj\Release\XeroxInterviewDemo.Data.Repository.pdb

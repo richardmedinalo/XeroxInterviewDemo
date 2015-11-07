@@ -1,0 +1,2 @@
+obj\Debug\CreateInterviewWorkflow.g.xaml
+obj\Debug\XeroxInterviewDemo.Business.Workflows_CreateInterviewWorkflow_BeforeInitializeComponentHelper.txt

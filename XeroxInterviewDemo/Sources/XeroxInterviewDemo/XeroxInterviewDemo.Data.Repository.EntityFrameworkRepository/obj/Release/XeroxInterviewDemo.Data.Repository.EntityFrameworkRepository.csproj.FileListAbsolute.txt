@@ -1,0 +1,16 @@
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.Repository.EntityFrameworkRepository\bin\Release\XeroxInterviewDemo.Data.Repository.EntityFrameworkRepository.dll.config
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.Repository.EntityFrameworkRepository\bin\Release\XeroxInterviewDemo.Data.Repository.EntityFrameworkRepository.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.Repository.EntityFrameworkRepository\bin\Release\XeroxInterviewDemo.Data.Repository.EntityFrameworkRepository.pdb
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.Repository.EntityFrameworkRepository\bin\Release\AutoMapper.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.Repository.EntityFrameworkRepository\bin\Release\EntityFramework.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.Repository.EntityFrameworkRepository\bin\Release\EntityFramework.SqlServer.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.Repository.EntityFrameworkRepository\bin\Release\XeroxInterviewDemo.Data.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.Repository.EntityFrameworkRepository\bin\Release\XeroxInterviewDemo.Data.Repository.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.Repository.EntityFrameworkRepository\bin\Release\XeroxInterviewDemo.Data.Repository.pdb
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.Repository.EntityFrameworkRepository\bin\Release\XeroxInterviewDemo.Data.pdb
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.Repository.EntityFrameworkRepository\bin\Release\AutoMapper.xml
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.Repository.EntityFrameworkRepository\bin\Release\EntityFramework.xml
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.Repository.EntityFrameworkRepository\bin\Release\EntityFramework.SqlServer.xml
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.Repository.EntityFrameworkRepository\obj\Release\XeroxInterviewDemo.Data.Repository.EntityFrameworkRepository.csprojResolveAssemblyReference.cache
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.Repository.EntityFrameworkRepository\obj\Release\XeroxInterviewDemo.Data.Repository.EntityFrameworkRepository.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.Repository.EntityFrameworkRepository\obj\Release\XeroxInterviewDemo.Data.Repository.EntityFrameworkRepository.pdb

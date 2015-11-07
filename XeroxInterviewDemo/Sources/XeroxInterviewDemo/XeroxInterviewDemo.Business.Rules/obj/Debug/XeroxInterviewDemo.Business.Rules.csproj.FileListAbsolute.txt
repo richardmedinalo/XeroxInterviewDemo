@@ -1,0 +1,7 @@
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Business.Rules\bin\Debug\XeroxInterviewDemo.Business.Rules.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Business.Rules\bin\Debug\XeroxInterviewDemo.Business.Rules.pdb
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Business.Rules\bin\Debug\XeroxInterviewDemo.Business.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Business.Rules\bin\Debug\XeroxInterviewDemo.Business.pdb
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Business.Rules\obj\Debug\XeroxInterviewDemo.Business.Rules.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Business.Rules\obj\Debug\XeroxInterviewDemo.Business.Rules.pdb
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Business.Rules\obj\Debug\XeroxInterviewDemo.Business.Rules.csprojResolveAssemblyReference.cache

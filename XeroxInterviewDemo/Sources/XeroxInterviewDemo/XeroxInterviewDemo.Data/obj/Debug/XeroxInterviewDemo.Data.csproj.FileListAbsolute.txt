@@ -1,0 +1,8 @@
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data\bin\Debug\XeroxInterviewDemo.Data.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data\bin\Debug\XeroxInterviewDemo.Data.pdb
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data\obj\Debug\XeroxInterviewDemo.Data.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data\obj\Debug\XeroxInterviewDemo.Data.pdb
+C:\dev\VSProjects\MySources\XeroxInterviewDemo\Sources\XeroxInterviewDemo\XeroxInterviewDemo.Data\bin\Debug\XeroxInterviewDemo.Data.dll
+C:\dev\VSProjects\MySources\XeroxInterviewDemo\Sources\XeroxInterviewDemo\XeroxInterviewDemo.Data\bin\Debug\XeroxInterviewDemo.Data.pdb
+C:\dev\VSProjects\MySources\XeroxInterviewDemo\Sources\XeroxInterviewDemo\XeroxInterviewDemo.Data\obj\Debug\XeroxInterviewDemo.Data.dll
+C:\dev\VSProjects\MySources\XeroxInterviewDemo\Sources\XeroxInterviewDemo\XeroxInterviewDemo.Data\obj\Debug\XeroxInterviewDemo.Data.pdb

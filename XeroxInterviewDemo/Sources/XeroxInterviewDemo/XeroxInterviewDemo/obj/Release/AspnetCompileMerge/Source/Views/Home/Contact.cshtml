@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>@ViewBag.Message</h2>
+</hgroup>
+
+<h3>Richard's Information</h3>
+<br />
+
+    @(Html.Kendo().TabStrip()
+        .Name("ContactsTabStrip")
+        .Items(items =>
+        {
+            items.Add()
+                .Text("Phone")
+                .Selected(true)
+                .Content(@<text>
+                    <p>
+                        <span class="label">Cell Phone:</span>
+                        <span>(+52) 99 32 78 17 30</span>
+                    </p>
+                    <p>
+                        <span class="label">Skype</span>
+                        <span>rickimedina</span>
+                    </p>
+                </text>)
+                .ContentHtmlAttributes(new { style = "min-height: 200px" });
+            items.Add()
+                .Text("Email")
+                .Content(@<text>
+                    <p>
+                        <span class="label">Yahoo:</span>
+                        <span><a href="mailto:richardmedinalo@yahoo.com">richardmedinalo@yahoo.com</a></span>
+                    </p>
+                    <p>
+                        <span class="label">Gmail:</span>
+                        <span><a href="mailto:ricki9@gmail.com">ricki9@gmail.com</a></span>
+                    </p>
+                    
+                </text>)
+                .ContentHtmlAttributes(new { style = "min-height: 200px" });
+            items.Add()
+                .Text("Blog")
+                .Content(@<text>
+                    <p>
+                        <p>
+                        <span class="label">Wordpress</span>
+                        <span><a href="http://ricki9.wordpress.com">http://ricki9.wordpress.com</a></span>
+                    </p>
+                    </p>
+                </text>)
+                .ContentHtmlAttributes(new { style = "min-height: 200px" });
+        })
+    )

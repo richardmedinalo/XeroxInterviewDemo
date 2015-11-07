@@ -1,0 +1,4 @@
+obj\Debug\_XeroxInterviewDemo.Business.Workflows.g.cs
+obj\Debug\CreateInterviewWorkflow.g.cs
+obj\Debug\XeroxInterviewDemo.Business.Workflows_CreateInterviewWorkflow_BeforeInitializeComponentHelper.cs
+C:\dev\VSProjects\MySources\XeroxInterviewDemo\Sources\XeroxInterviewDemo\XeroxInterviewDemo.Business.Workflows\obj\Debug\XeroxInterviewDemo.Business.Workflows_CreateInterviewWorkflow_CompiledExpressionRoot.cs

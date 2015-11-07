@@ -1,0 +1,238 @@
+﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="XeroxInterviewDemo.Business.Workflows.CreateInterviewWorkflow"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities"
+ xmlns:s="clr-namespace:System;assembly=mscorlib"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+ xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+ xmlns:xb="clr-namespace:XeroxInterviewDemo.Business;assembly=XeroxInterviewDemo.Business"
+ xmlns:xbo="clr-namespace:XeroxInterviewDemo.Business.Objects;assembly=XeroxInterviewDemo.Business.Objects"
+ xmlns:xbv="clr-namespace:XeroxInterviewDemo.Business.Validations;assembly=XeroxInterviewDemo.Business.Validations"
+ xmlns:xbw="clr-namespace:XeroxInterviewDemo.Business.Workbenchs;assembly=XeroxInterviewDemo.Business.Workbenchs">
+  <x:Members>
+    <x:Property Name="ValidationErrors" Type="OutArgument(s:String[])" />
+    <x:Property Name="InterviewBusiness" Type="InArgument(xb:InterviewBusiness)" />
+  </x:Members>
+  <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
+  <sap2010:WorkflowViewState.IdRef>XeroxInterviewDemo.Business.Workflows.Activity1_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>XeroxInterviewDemo.Business</x:String>
+      <x:String>XeroxInterviewDemo.Business.Objects</x:String>
+      <x:String>XeroxInterviewDemo.Business.Validations</x:String>
+      <x:String>XeroxInterviewDemo.Business.Workbenchs</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>DevExpress.Workflow.Activities.v15.1</AssemblyReference>
+      <AssemblyReference>XeroxInterviewDemo.Business</AssemblyReference>
+      <AssemblyReference>XeroxInterviewDemo.Business.Objects</AssemblyReference>
+      <AssemblyReference>XeroxInterviewDemo.Business.Validations</AssemblyReference>
+      <AssemblyReference>XeroxInterviewDemo.Business.Workbenchs</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Channels</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>XeroxInterviewDemo.Business.Workflows</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:Annotation.AnnotationText="This Windows WorkFlow Foundation defines how to create an interview. &#xA;I used to illustrate the process graphically.  This environment is a Business Process Manager.&#xA;&#xA;After defining the workflow I going to run it from a WCF Service allocated on Internet Information Server." DisplayName="Creating an Interview" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="xbw:IWorkbench" Name="workbench" />
+      <Variable x:TypeArguments="xbo:IBusinessObject(xb:InterviewBusiness)" Name="interviewBusinessObject" />
+      <Variable x:TypeArguments="x:Boolean" Name="result" />
+    </Sequence.Variables>
+    <Assign sap2010:Annotation.AnnotationText="Workbench define a default database and validation api. In this case EntityFramework using SQL server and FluentAPI for validations." sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign.To>
+        <OutArgument x:TypeArguments="xbw:IWorkbench">
+          <mca:CSharpReference x:TypeArguments="xbw:IWorkbench">workbench</mca:CSharpReference>
+        </OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="xbw:IWorkbench">
+          <mca:CSharpValue x:TypeArguments="xbw:IWorkbench">new DefaultWorkbench()</mca:CSharpValue>
+        </InArgument>
+      </Assign.Value>
+    </Assign>
+    <Assign sap2010:Annotation.AnnotationText="We can create an InterviewBusinessObject for running operations related to Interviews. " sap2010:WorkflowViewState.IdRef="Assign_2">
+      <Assign.To>
+        <OutArgument x:TypeArguments="xbo:IBusinessObject(xb:InterviewBusiness)">
+          <mca:CSharpReference x:TypeArguments="xbo:IBusinessObject(xb:InterviewBusiness)">interviewBusinessObject</mca:CSharpReference>
+        </OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="xbo:IBusinessObject(xb:InterviewBusiness)">
+          <mca:CSharpValue x:TypeArguments="xbo:IBusinessObject(xb:InterviewBusiness)">new InterviewBusinessObject(workbench)</mca:CSharpValue>
+        </InArgument>
+      </Assign.Value>
+    </Assign>
+    <InvokeMethod sap2010:Annotation.AnnotationText="I run our busines object method (Create) with the arguments we passed before to create a new interview. Result of this method is stored on the variable 'result'" sap2010:WorkflowViewState.IdRef="InvokeMethod_1" MethodName="Create">
+      <InvokeMethod.Result>
+        <OutArgument x:TypeArguments="x:Boolean">
+          <mca:CSharpReference x:TypeArguments="x:Boolean">result</mca:CSharpReference>
+        </OutArgument>
+      </InvokeMethod.Result>
+      <InvokeMethod.TargetObject>
+        <InArgument x:TypeArguments="xbo:IBusinessObject(xb:InterviewBusiness)">
+          <mca:CSharpValue x:TypeArguments="xbo:IBusinessObject(xb:InterviewBusiness)">interviewBusinessObject</mca:CSharpValue>
+        </InArgument>
+      </InvokeMethod.TargetObject>
+      <InArgument x:TypeArguments="xb:InterviewBusiness">
+        <mca:CSharpValue x:TypeArguments="xb:InterviewBusiness">InterviewBusiness</mca:CSharpValue>
+      </InArgument>
+    </InvokeMethod>
+    <If sap2010:Annotation.AnnotationText="InterviewBusinessObject.Create returns a bolean value depends of it was sucess or there are errors.&#xA;If result == true &lt;-- it means there wasn't errors&#xA;else &lt;--- it means there are errors" sap2010:WorkflowViewState.IdRef="If_1">
+      <If.Condition>
+        <InArgument x:TypeArguments="x:Boolean">
+          <mca:CSharpValue x:TypeArguments="x:Boolean">result</mca:CSharpValue>
+        </InArgument>
+      </If.Condition>
+      <If.Else>
+        <Sequence sap2010:Annotation.AnnotationText="If we had errors, we copy the errors in a simple string array. variable is called: ValidationErrors" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="x:Int32" Name="i" />
+          </Sequence.Variables>
+          <Assign sap2010:Annotation.AnnotationText="I've created a new string array to store all errors." sap2010:WorkflowViewState.IdRef="Assign_3">
+            <Assign.To>
+              <OutArgument x:TypeArguments="s:String[]">
+                <mca:CSharpReference x:TypeArguments="s:String[]">ValidationErrors</mca:CSharpReference>
+              </OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="s:String[]">
+                <mca:CSharpValue x:TypeArguments="s:String[]">new string [interviewBusinessObject.Validator.CreatingValidator.ValidationMessages.Count]</mca:CSharpValue>
+              </InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign sap2010:Annotation.AnnotationText="I've initialized the index value for iterating the validation message collection" sap2010:WorkflowViewState.IdRef="Assign_4">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:Int32">
+                <mca:CSharpReference x:TypeArguments="x:Int32">i</mca:CSharpReference>
+              </OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:Int32">0</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ForEach x:TypeArguments="xbv:ValidationMessage" sap2010:Annotation.AnnotationText="We have to iterate for each element in the list and we can add each one to the string array." DisplayName="ForEach&lt;ValidationMessage&gt;" sap2010:WorkflowViewState.IdRef="ForEach`1_2">
+            <ForEach.Values>
+              <InArgument x:TypeArguments="scg:IEnumerable(xbv:ValidationMessage)">
+                <mca:CSharpValue x:TypeArguments="scg:IEnumerable(xbv:ValidationMessage)">interviewBusinessObject.Validator.CreatingValidator.ValidationMessages</mca:CSharpValue>
+              </InArgument>
+            </ForEach.Values>
+            <ActivityAction x:TypeArguments="xbv:ValidationMessage">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="xbv:ValidationMessage" Name="validationMessage" />
+              </ActivityAction.Argument>
+              <Assign sap2010:WorkflowViewState.IdRef="Assign_5">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="x:String">
+                    <mca:CSharpReference x:TypeArguments="x:String">ValidationErrors[i]</mca:CSharpReference>
+                  </OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="x:String">
+                    <mca:CSharpValue x:TypeArguments="x:String">validationMessage.ToString ()</mca:CSharpValue>
+                  </InArgument>
+                </Assign.Value>
+              </Assign>
+            </ActivityAction>
+          </ForEach>
+        </Sequence>
+      </If.Else>
+    </If>
+    <sads:DebugSymbol.Symbol>d2dDOlxkZXZcVlNQcm9qZWN0c1xYZXJveEludGVydmlld0RlbW9cWGVyb3hJbnRlcnZpZXdEZW1vLkJ1c2luZXNzLldvcmtmbG93c1xDcmVhdGVJbnRlcnZpZXdXb3JrZmxvdy54YW1sGToDpAEOAgEBQAVLDgIBW0wFVw4CAU5YBWYUAgE7ZwWiAQoCAQJIC0hlAgFiQwtDYAIBXFQLVJABAgFVTwtPiQECAU9kCWRkAgFIWwtbWAIBQmALYIEBAgE8agtqUAIBA24JoAEUAgEJcgt9FAIBLH4LhwEUAgEjiAELnwEVAgEKehF6qgECATR1EXVpAgEthQE1hQE2AgErgQERgQFXAgEkiwERiwGzAQIBHJIBD50BGAIBC5oBFZoBcAIBFJUBFZUBbgIBDA==</sads:DebugSymbol.Symbol>
+  </Sequence>
+  <sap2010:WorkflowViewState.ViewStateManager>
+    <sap2010:ViewStateManager>
+      <sap2010:ViewStateData Id="Assign_1" sap:VirtualizedContainerService.HintSize="464,130">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Assign_2" sap:VirtualizedContainerService.HintSize="464,115">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="InvokeMethod_1" sap:VirtualizedContainerService.HintSize="464,213">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Assign_3" sap:VirtualizedContainerService.HintSize="287,100">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Assign_4" sap:VirtualizedContainerService.HintSize="287,115">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Assign_5" sap:VirtualizedContainerService.HintSize="242,62" />
+      <sap2010:ViewStateData Id="ForEach`1_2" sap:VirtualizedContainerService.HintSize="287,250">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Sequence_2" sap:VirtualizedContainerService.HintSize="309,707">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="If_1" sap:VirtualizedContainerService.HintSize="464,925">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="486,1725">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="XeroxInterviewDemo.Business.Workflows.Activity1_1" sap:VirtualizedContainerService.HintSize="526,1805" />
+    </sap2010:ViewStateManager>
+  </sap2010:WorkflowViewState.ViewStateManager>
+</Activity>

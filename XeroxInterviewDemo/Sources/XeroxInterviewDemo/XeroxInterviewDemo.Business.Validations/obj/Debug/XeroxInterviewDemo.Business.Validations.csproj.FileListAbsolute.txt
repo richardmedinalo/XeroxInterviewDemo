@@ -1,0 +1,14 @@
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Business.Validations\bin\Debug\XeroxInterviewDemo.Business.Validations.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Business.Validations\bin\Debug\XeroxInterviewDemo.Business.Validations.pdb
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Business.Validations\bin\Debug\XeroxInterviewDemo.Business.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Business.Validations\bin\Debug\XeroxInterviewDemo.Business.pdb
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Business.Validations\obj\Debug\XeroxInterviewDemo.Business.Validations.csprojResolveAssemblyReference.cache
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Business.Validations\obj\Debug\XeroxInterviewDemo.Business.Validations.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Business.Validations\obj\Debug\XeroxInterviewDemo.Business.Validations.pdb
+C:\dev\VSProjects\MySources\XeroxInterviewDemo\Sources\XeroxInterviewDemo\XeroxInterviewDemo.Business.Validations\bin\Debug\XeroxInterviewDemo.Business.Validations.dll
+C:\dev\VSProjects\MySources\XeroxInterviewDemo\Sources\XeroxInterviewDemo\XeroxInterviewDemo.Business.Validations\bin\Debug\XeroxInterviewDemo.Business.Validations.pdb
+C:\dev\VSProjects\MySources\XeroxInterviewDemo\Sources\XeroxInterviewDemo\XeroxInterviewDemo.Business.Validations\bin\Debug\XeroxInterviewDemo.Business.dll
+C:\dev\VSProjects\MySources\XeroxInterviewDemo\Sources\XeroxInterviewDemo\XeroxInterviewDemo.Business.Validations\bin\Debug\XeroxInterviewDemo.Business.pdb
+C:\dev\VSProjects\MySources\XeroxInterviewDemo\Sources\XeroxInterviewDemo\XeroxInterviewDemo.Business.Validations\obj\Debug\XeroxInterviewDemo.Business.Validations.csprojResolveAssemblyReference.cache
+C:\dev\VSProjects\MySources\XeroxInterviewDemo\Sources\XeroxInterviewDemo\XeroxInterviewDemo.Business.Validations\obj\Debug\XeroxInterviewDemo.Business.Validations.dll
+C:\dev\VSProjects\MySources\XeroxInterviewDemo\Sources\XeroxInterviewDemo\XeroxInterviewDemo.Business.Validations\obj\Debug\XeroxInterviewDemo.Business.Validations.pdb

@@ -1,0 +1,15 @@
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryLoader\obj\Debug\XeroxInterviewDemo.Data.RepositoryLoader.csprojResolveAssemblyReference.cache
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryLoader\bin\Debug\XeroxInterviewDemo.Data.RepositoryLoader.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryLoader\bin\Debug\XeroxInterviewDemo.Data.RepositoryLoader.pdb
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryLoader\bin\Debug\XeroxInterviewDemo.Data.Repository.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryLoader\bin\Debug\XeroxInterviewDemo.Data.Repository.EntityFrameworkRepository.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryLoader\bin\Debug\XeroxInterviewDemo.Data.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryLoader\bin\Debug\EntityFramework.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryLoader\bin\Debug\AutoMapper.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryLoader\bin\Debug\XeroxInterviewDemo.Data.Repository.EntityFrameworkRepository.pdb
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryLoader\bin\Debug\XeroxInterviewDemo.Data.Repository.pdb
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryLoader\bin\Debug\XeroxInterviewDemo.Data.pdb
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryLoader\bin\Debug\EntityFramework.xml
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryLoader\bin\Debug\AutoMapper.xml
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryLoader\obj\Debug\XeroxInterviewDemo.Data.RepositoryLoader.dll
+C:\dev\VSProjects\XeroxInterviewDemo\XeroxInterviewDemo.Data.RepositoryLoader\obj\Debug\XeroxInterviewDemo.Data.RepositoryLoader.pdb

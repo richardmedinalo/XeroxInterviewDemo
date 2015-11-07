@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EFE6FA78-9888-4356-8CC2-22F667D2FA5E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XeroxInterviewDemo.Business.Validations.FluentValidations</RootNamespace>
+    <AssemblyName>XeroxInterviewDemo.Business.Validations.FluentValidations</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FluentValidation, Version=5.6.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidation.5.6.2.0\lib\Net45\FluentValidation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FluentInterviewBusinessCRUDValidator.cs" />
+    <Compile Include="FluentInterviewerBusinessCRUDValidator.cs" />
+    <Compile Include="FluentValidator.cs" />
+    <Compile Include="InterviewBusinessDeletingValidator.cs" />
+    <Compile Include="InterviewBusinessCreatingValidator.cs" />
+    <Compile Include="InterviewBusinessReadingValidator.cs" />
+    <Compile Include="InterviewBusinessUpdatingValidator.cs" />
+    <Compile Include="InterviewerBusinessDeletingValidator.cs" />
+    <Compile Include="InterviewerBusinessCreatingValidator.cs" />
+    <Compile Include="InterviewerBusinessReadingValidator.cs" />
+    <Compile Include="InterviewerBusinessUpdatingValidator.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XeroxInterviewDemo.Business.Validations\XeroxInterviewDemo.Business.Validations.csproj">
+      <Project>{48e639ea-4552-4614-b254-d4c789dcc66f}</Project>
+      <Name>XeroxInterviewDemo.Business.Validations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XeroxInterviewDemo.Business\XeroxInterviewDemo.Business.csproj">
+      <Project>{68162202-fe4a-4c0c-aeba-f3a02bab0906}</Project>
+      <Name>XeroxInterviewDemo.Business</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
